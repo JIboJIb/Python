@@ -1,6 +1,6 @@
-number="1234567890"
-if len(number)==10 and number.isdigit():
-    print("good")
+program_name="vladyslav"
+name="Vladyslav"
+if program_name.lower()==name.lower():
+ print("Good!")
 else:
     print("try again")
-     

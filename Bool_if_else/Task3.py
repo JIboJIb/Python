@@ -1,6 +1,8 @@
-program_name="vladyslav"
-name="Vladyslav"
-if program_name.lower()==name.lower():
- print("Good!")
-else:
-    print("try again")
+program_name = "vladyslav"
+while True:
+    name = input("Write your name:  ")
+    if program_name.lower() == name.lower():
+        print("Good!")
+        break
+    else:
+        print("try again")

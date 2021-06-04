@@ -1,5 +1,5 @@
-a="abra cadabra"
-if len(a)<=2:
-    print("empty string")
+a = "abra cadabra"
+if len(a) < 2:
+    print(" ")
 else:
-       print(a[:2]+a[-2:])
+    print(a[:2] + a[-2:])
