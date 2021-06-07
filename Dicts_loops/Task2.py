@@ -12,5 +12,5 @@ prices = {
     "orange": 1.5,
     "pear": 3
 }
-priceOfStock = {key: prices[key] * stock[key] for key in stock}
-print(priceOfStock)
+price_ofStock = {key: prices[key] * stock[key] for key in stock}
+print(price_ofStock)
