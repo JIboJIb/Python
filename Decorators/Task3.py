@@ -38,4 +38,5 @@ def create_slogan(name: str) -> str:
     return f'{name} drinks pepsi in his brand new BMW!'
 
 
-
+print(create_slogan('johndoe05@gmail.com'))
+print(create_slogan('S@SH05'))
