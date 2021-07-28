@@ -36,3 +36,10 @@ def do_something(string):
     return string
 
 
+try:
+    do_nothing('25')
+    do_something('True')
+except NameError as error_msg:
+    print(error_msg)
+except TypeError as error_msg:
+    print(error_msg)
