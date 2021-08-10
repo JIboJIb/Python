@@ -3,3 +3,5 @@
 import sys
 print(sys.path[2])
 a = sys.path
+a.remove(sys.path[2])
+print(sys.path[2])
