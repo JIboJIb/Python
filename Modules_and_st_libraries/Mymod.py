@@ -12,8 +12,3 @@ def count_chars(name):
 
 def test(name):
     return f"Lines: {count_lines(name)} chars {count_chars(name)}"
-
-
-print(count_lines('Mike Inez.txt'))
-print(count_chars('Mike Inez.txt'))
-print(test('Mike Inez.txt'))
