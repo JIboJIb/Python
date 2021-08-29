@@ -1,6 +1,0 @@
-# Create your own class, which can behave like a built-in function `open`.
-# Also, you need to extend its functionality with counter and logging.
-# Pay special attention to the implementation of `__exit__` method,
-# which has to cover all the requirements to context managers mentioned here:
-# https://docs.python.org/3.7/library/stdtypes.html#typecontextmanager
-# https://docs.python.org/3.7/reference/compound_stmts.html#with
