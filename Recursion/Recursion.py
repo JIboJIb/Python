@@ -1,7 +1,8 @@
 from typing import Optional, Union
 
 
-def to_power(x: Optional[Union[int, float]], exp: int) -> Optional[Union[int, float]]:
+# Optional means [type, None]https://stackoverflow.com/questions/51710037/how-should-i-use-the-optional-type-hint
+def to_power(x: Optional[Union[int, float]], exp: int) -> Optional[Union[int, float]]:  
     if exp == 1:
         return x
     if exp > 1:
